@@ -1,6 +1,6 @@
 # PostCSS Bem [![Build Status][ci-img]][ci]
 
-[PostCSS] plugin implementing BEM as at-rules.
+[PostCSS] plugin implementing BEM as at-rules.Forked from [saladcss-bem](https://github.com/saladcss/saladcss-bem.git).
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/ileri/postcss-bem.svg
@@ -88,6 +88,17 @@
 .nav_placement_header {
     background-color: red
 }
+```
+
+## Install
+
+```bash
+yarn add postcss-plugin-bem-atrule -D
+```
+or
+
+```bash
+npm i postcss-plugin-bem-atrule -D
 ```
 
 ## Usage

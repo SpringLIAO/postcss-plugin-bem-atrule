@@ -1,24 +1,29 @@
 {
-    "name": "saladcss-bem",
+    "name": "postcss-plugin-bem-atrule",
     "version": "0.0.1",
     "description": "PostCSS plugin implementing BEM as at-rules",
-    "keywords": ["postcss", "css", "postcss-plugin", "bem"],
-    "author": "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>",
+    "keywords": [
+        "postcss",
+        "css",
+        "postcss-plugin",
+        "bem"
+    ],
+    "author": "SpringLIAO <389055604@qq.com>",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url":  "https://github.com/saladcss/saladcss-bem.git"
-    },
-    "dependencies": {
-        "postcss": "^5.0.8"
+        "url": "https://github.com/SpringLIAO/postcss-plugin-bem-atrule.git"
     },
     "devDependencies": {
+        "chai": "^2.3.0",
+        "gulp": "^3.8.11",
         "gulp-eslint": "^0.12.0",
-        "gulp-mocha":  "^2.0.1",
-        "chai":        "^2.3.0",
-        "gulp":        "^3.8.11"
+        "gulp-mocha": "^2.0.1"
     },
     "scripts": {
         "test": "gulp"
+    },
+    "dependencies": {
+        "postcss": "^7.0.2"
     }
 }

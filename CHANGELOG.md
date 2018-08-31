@@ -1,3 +1,8 @@
+1.0.0 (2018-9-1)
+  - Fix test
+  - Upgrade postcss to 7.x;
+  - Rename to postcss-plugin-bem-atrule
+
 0.4.1 (2015-12-15)
   - Fix deprecation warnings (#10, #11)
 
